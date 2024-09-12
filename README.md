@@ -55,3 +55,7 @@ There are some warnings popping up when running `docker-compose` but they are be
 JWT_SECRET: secret for token generation
 
 PORT: server access port
+
+## Observations
+
+The GET /courses endpoint can receive the filters "title" and "instructor" as query params and they will match any record that is strictly equal to the filter.
